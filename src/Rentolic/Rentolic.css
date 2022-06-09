@@ -1,0 +1,280 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Start header */
+.header_main {
+    background-color: #071f43;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    color: antiquewhite;
+}
+
+.first_div {
+    margin-left: 60px;
+    height: 60px;
+}
+
+.profile_icon {
+    margin-top: 17px;
+}
+
+.head_heading {
+    margin-left: -20px;
+    margin-top: -8px;
+    font-size: larger;
+    font-family: system-ui;
+}
+
+.search_div {
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: white;
+    width: 800px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.search {
+    margin: 10px;
+    width: 700px;
+}
+
+.search_icon {
+    margin-top: -70px;
+    margin-left: 750px;
+}
+
+.location_div {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.location_div h3 {
+    font-size: larger;
+    font-family: system-ui;
+    margin-top: -1px;
+    margin-left: 10px;
+}
+
+.header_btn {
+    background-color: #3c8fb5;
+    margin-left: 30px;
+    width: 200px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* End Header */
+
+/* Start Navbar */
+.navbar_main {
+    width: 100%;
+    height: 50px;
+    background-color: #50a9d2;
+    display: flex;
+}
+
+.navbar_main h2 {
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: large;
+    font-family: system-ui;
+}
+
+.phone_icon {
+    color: white;
+    margin-left: 80px;
+    margin-top: 13px;
+}
+
+.number {
+    color: white;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: large;
+    font-family: system-ui;
+}
+
+.anchor {
+    text-decoration: none;
+    color: white;
+}
+
+/* End Navbar */
+
+/* Start slide image */
+.slide_img {
+    height: 670px;
+    width: 100%;
+}
+
+.img_lower {
+    width: 100%;
+    height: 100px;
+    background-color: #071f43;
+    text-align: center;
+    color: white;
+}
+
+.img_lower h4 {
+    font-size: large;
+    font-family: system-ui;
+    margin-top: -4px;
+}
+
+.img_lower h4 span a {
+    color: yellow;
+    text-decoration: none;
+}
+
+/* End Slide Image */
+
+
+/* Start top rental picks */
+.Rental_div {
+    text-align: center;
+    font-size: x-large;
+    font-family: system-ui;
+}
+
+.data_div {
+    display: flex;
+    font-size: large;
+    font-family: system-ui;
+}
+
+.data_div h2 {
+    margin-left: 220px;
+    text-align: center;
+    font-size: larger;
+    font-family: system-ui;
+    color: #3c8fb5;
+}
+
+.Top_picks {
+    text-align: center;
+    font-size: x-large;
+    font-family: system-ui;
+}
+
+.card_main {
+    width: 300px;
+    height: 400px;
+    margin-left: 30px;
+    border: 2px solid #3c8fb5;
+    box-shadow: 2px 2px 5px 2px #3c8fb5;
+}
+
+.card_img {
+    width: 300px;
+    height: 350px;
+    margin-top: 10px;
+}
+
+.selection_headings {
+    text-align: center;
+    font-size: x-large;
+    font-family: system-ui;
+}
+
+.carddata_main {
+    display: flex;
+    margin-top: 30px;
+}
+
+.list_btn {
+    width: 200px;
+    height: 30px;
+    background-color: #3c8fb5;
+    border: none;
+    border-radius: 20px;
+    margin-left: 55px;
+    cursor: pointer;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.second_div {
+    margin-top: 80px;
+}
+
+/* End top rental picks */
+
+
+/* Start Feedback section */
+.FeedbackCard_main h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: x-larger;
+    font-family: system-ui;
+}
+
+.feedback_div {
+    display: flex;
+}
+
+.Feedback_icon {
+    height: 180px;
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    margin-left: 105px;
+    background-color: #3c8fb5;
+}
+
+.Feedback_icon p {
+    text-align: center;
+    font-size: small;
+    font-family: system-ui;
+    color: white;
+    margin-top: 22px;
+}
+
+.personOutlineIcon_icon {
+    color: white;
+    margin-top: 20px;
+}
+
+/* End Feedback section */
+
+/* start footer section */
+
+.footer_div {
+    background-color: #071f43;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer_div h2 {
+    color: white;
+    font-size: large;
+    font-family: system-ui;
+    margin-top: 20px
+}
+
+.footer_btn {
+    background-color: #3c8fb5;
+    margin-left: 30px;
+    width: 200px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* end footer section */
