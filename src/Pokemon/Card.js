@@ -11,6 +11,6 @@ const Card = (props) => {
                 <h1>Orders: {props.order}</h1>
             </div>
         </div>
-    )
+    );
 };
 export default Card;
